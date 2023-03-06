@@ -27,7 +27,6 @@
 .cardholder-name .labelname{
   display: flex;
   flex-direction: column;
-  padding: 3.5rem 0 0;
 } 
 
 .labelnumber{
