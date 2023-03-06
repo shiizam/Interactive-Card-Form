@@ -126,7 +126,7 @@ input:focus{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 25rem;
+    margin: 17rem 10rem 0 0rem;
   }
 
   .payment-form{

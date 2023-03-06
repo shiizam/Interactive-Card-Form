@@ -16,6 +16,16 @@
 	min-height: 100vh;
 	align-items: center;
 	justify-content: center;
+  background-image: url(./assets/bg-main-mobile.png);
+  background-size: 33%;
+  background-repeat: no-repeat;
+  height: 14.5rem;
+}
+
+.App{
+  max-width: 1440px;
+  margin: 0 auto;
+
 }
 
 body {
@@ -29,6 +39,17 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
+  
+  #root {
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./assets/bg-main-mobile.png);
+    background-size: 33% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+  
   .App{
     display: grid;
     grid-template-columns: repeat(2, 1fr);

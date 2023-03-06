@@ -95,11 +95,7 @@
 @media screen and (min-width: 1200px) {
 
   .banner{
-    width: 66%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    background-image: none;
   }
 
   /************ Front Card Styles ************/
@@ -110,7 +106,7 @@
   
   .banner .front-card{
     position: relative;
-    transform: translate(19.5rem, 12rem);
+    transform: translate(4.5rem, 12rem);
   }
 
   .banner .front-card .white-circle{
@@ -154,7 +150,7 @@
 
   .banner .back-card{
     position: relative;
-    transform: translate(25rem, 13rem);
+    transform: translate(10rem, 13rem);
   }
 
   .banner .back-card .cvc{
