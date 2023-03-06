@@ -1,0 +1,36 @@
+:root {
+  --active-border: linear-gradient(90deg, hsl(249, 99%, 64%),hsl(278, 94%, 30%));
+  --error: hsl(0, 100%, 66%);
+  --white: hsl(0, 0%, 100%);
+  --light-violet: hsl(270, 3%, 87%);
+  --dark-violet: hsl(279, 6%, 55%);
+  --very-violet: hsl(278, 68%, 11%);
+
+  /* font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%; */
+}
+#root {
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  min-width: 375px;
+  max-height: 100vh;
+  font-family: 'Space Grotesk';
+  font-weight: 500;
+  align-items: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .App{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,29 @@
+.card-thanks{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.card-thanks img{
+  padding-top: 5rem;
+}
+
+.card-thanks .thanks{
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.25ch;
+  color: var(--very-violet);
+  margin: 2rem 0 1rem;
+}
+
+.card-thanks p{
+  color: var(--dark-violet);
+}
+
+#thanks-btn{
+  width: 343px;
+}
