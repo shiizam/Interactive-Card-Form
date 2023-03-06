@@ -27,6 +27,7 @@
 .cardholder-name .labelname{
   display: flex;
   flex-direction: column;
+  padding: 3.5rem 0 0;
 } 
 
 .labelnumber{
@@ -134,6 +135,10 @@ input:focus{
 
   .labelnumber{
     padding-top: 2rem;
+  } 
+
+  .cardholder-name .labelname{
+    padding: 0;
   } 
   
   input{

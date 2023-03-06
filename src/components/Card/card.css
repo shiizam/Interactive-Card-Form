@@ -1,4 +1,4 @@
-/************ Banner Background Style ************/
+/****** Banner Background Style ************/
 
 .banner{
   background-image: url(../../assets/bg-main-mobile.png);
@@ -66,7 +66,7 @@
   color: var(--white);
   letter-spacing: .25ch;
   left: 20px;
-  bottom: 55px;
+  bottom: 40px;
 }
 
 /************ Banner Back Card Styles ************/
@@ -78,7 +78,7 @@
 .banner .back-card .cvc{
   position: absolute;
   color: var(--white);
-  top: 85px;
+  top: 75px;
   left: 220px;
   font-size: 0.6rem;
   letter-spacing: .25ch;
@@ -89,8 +89,6 @@
   height: 9.5rem;
   padding-top: 1rem;
 }
-
-
 
 
 /************ DESKTOP STYLES ************/
